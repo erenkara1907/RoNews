@@ -11,6 +11,8 @@
 		CED5CBF72951F10000FAC138 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED5CBF62951F10000FAC138 /* ContentView.swift */; };
 		CED5CBF92951F10100FAC138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED5CBF82951F10100FAC138 /* Assets.xcassets */; };
 		CED5CBFC2951F10100FAC138 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED5CBFB2951F10100FAC138 /* Preview Assets.xcassets */; };
+		CED5CC082951F1D900FAC138 /* DeviceSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED5CC072951F1D900FAC138 /* DeviceSize.swift */; };
+		CED5CC0A2951F1F100FAC138 /* DeviceSize+Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED5CC092951F1F100FAC138 /* DeviceSize+Calculate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		CED5CBF62951F10000FAC138 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CED5CBF82951F10100FAC138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED5CBFB2951F10100FAC138 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CED5CC072951F1D900FAC138 /* DeviceSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSize.swift; sourceTree = "<group>"; };
+		CED5CC092951F1F100FAC138 /* DeviceSize+Calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeviceSize+Calculate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +55,10 @@
 		CED5CBF32951F10000FAC138 /* RoNews */ = {
 			isa = PBXGroup;
 			children = (
+				CED5CC032951F17000FAC138 /* Utils */,
+				CED5CC022951F16900FAC138 /* Resources */,
 				CED5CBF42951F10000FAC138 /* RoNewsApp.swift */,
 				CED5CBF62951F10000FAC138 /* ContentView.swift */,
-				CED5CBF82951F10100FAC138 /* Assets.xcassets */,
 				CED5CBFA2951F10100FAC138 /* Preview Content */,
 			);
 			path = RoNews;
@@ -65,6 +70,39 @@
 				CED5CBFB2951F10100FAC138 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CED5CC022951F16900FAC138 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CED5CBF82951F10100FAC138 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CED5CC032951F17000FAC138 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CED5CC062951F1A300FAC138 /* Constants */,
+				CED5CC042951F19700FAC138 /* Extension */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CED5CC042951F19700FAC138 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CED5CC092951F1F100FAC138 /* DeviceSize+Calculate.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CED5CC062951F1A300FAC138 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CED5CC072951F1D900FAC138 /* DeviceSize.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +176,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED5CBF72951F10000FAC138 /* ContentView.swift in Sources */,
+				CED5CC0A2951F1F100FAC138 /* DeviceSize+Calculate.swift in Sources */,
 				CED5CBF52951F10000FAC138 /* RoNewsApp.swift in Sources */,
+				CED5CC082951F1D900FAC138 /* DeviceSize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
