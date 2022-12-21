@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFE102052952DC1A00A6027F /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE102042952DC1A00A6027F /* Sample.swift */; };
 		CED5CBF52951F10000FAC138 /* RoNewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED5CBF42951F10000FAC138 /* RoNewsApp.swift */; };
 		CED5CBF72951F10000FAC138 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED5CBF62951F10000FAC138 /* ContentView.swift */; };
 		CED5CBF92951F10100FAC138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED5CBF82951F10100FAC138 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BFE102042952DC1A00A6027F /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
 		CED5CBF12951F10000FAC138 /* RoNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED5CBF42951F10000FAC138 /* RoNewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoNewsApp.swift; sourceTree = "<group>"; };
 		CED5CBF62951F10000FAC138 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BFE102032952DC0600A6027F /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				BFE102042952DC1A00A6027F /* Sample.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
 		CED5CBE82951F10000FAC138 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 		CED5CBF32951F10000FAC138 /* RoNews */ = {
 			isa = PBXGroup;
 			children = (
+				BFE102032952DC0600A6027F /* Product */,
 				CED5CC032951F17000FAC138 /* Utils */,
 				CED5CC022951F16900FAC138 /* Resources */,
 				CED5CBF42951F10000FAC138 /* RoNewsApp.swift */,
@@ -175,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFE102052952DC1A00A6027F /* Sample.swift in Sources */,
 				CED5CBF72951F10000FAC138 /* ContentView.swift in Sources */,
 				CED5CC0A2951F1F100FAC138 /* DeviceSize+Calculate.swift in Sources */,
 				CED5CBF52951F10000FAC138 /* RoNewsApp.swift in Sources */,
